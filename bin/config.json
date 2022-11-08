@@ -4,8 +4,8 @@
       "users": ["admin"],
       "projects": ["*"]
     },
-    "superuser": {"users": ["admin"], "projects": ["*"]},
+    "superuser": {"users": ["super"], "projects": ["*"]},
     "guest": {"users": ["guest"], "projects": ["*"]},
-    "forbidden": {"users": ["none"]}
+    "forbidden": {"users": ["none"], "projects": ["*"]}
   }
 }
